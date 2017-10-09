@@ -1,0 +1,22 @@
+from BasicImports import *
+def endgame():
+    PlaySound(crashingdownmusic, SND_ASYNC)
+    sleep(3)
+    print_slow("You have finally defeated the true monster of the darkness.\n")
+    sleep(2)
+    print_slow("You have brought balance to the world.\n")
+    PlaySound(None, SND_ASYNC)
+    sleep(5)
+    PlaySound(endgamemusic, SND_ASYNC)
+    sleep(5)
+    print_slow("Congatz, you have officially beaten the game.\n")
+    sleep(10)
+    print_slow("Look I know it sucked but the game is still in developement so...\n")
+    sleep(10)
+    print_slow("I'll just let you listen to this music for a bit ;)\n")
+    sleep(20)
+    print_slow("Alright thanks for playing!")
+    PlaySound(None, SND_ASYNC)
+    exit()
+
+endgame()
