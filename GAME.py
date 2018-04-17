@@ -68,7 +68,7 @@ avadacadavera=False
 
 def GAME():
     while True:
-        #intro()
+        intro()
         print_slow("COCKADOODLEDOOOOOOOOOO\n")
         PlaySound(normaldaymusic, SND_ASYNC)
         sleep(3)

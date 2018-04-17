@@ -1,4 +1,5 @@
 #Basic imports
+import os
 from random import *
 from sys import stdout
 from time import sleep
@@ -24,10 +25,11 @@ def print_fast(str):
         stdout.write(letter)
         stdout.flush()
         sleep(0.03)
-intromusic="C:/Users/caleb_000/Documents/Python/Python Game/Music/8-Bit Mix- Music Box - Dark Cloud.wav"
-normaldaymusic="C:/Users/caleb_000/Documents/Python/Python Game/Music/Dark Cloud Main Theme 8 Bit Remix (1).wav"
-beginningbattlemusic="C:/Users/caleb_000/Documents/Python/Python Game/Music/Kingdom Hearts 2 -  The Encounter  8-bit.wav"
-wizardmusic="C:/Users/caleb_000/Documents/Python/Python Game/Music/8 Bit Mix - One Winged Angel.wav"
-crashingdownmusic="C:/Users/caleb_000/Documents/Python/Python Game/Music/Sonic Advance 2 Soundtrack- Final Ending.wav"
-endgamemusic="C:/Users/caleb_000/Documents/Python/Python Game/Music/DuckTales Music (NES) - The Moon Theme.wav"
-gamestartmusic="C:/Users/caleb_000/Documents/Python/Python Game/Music/Skyrim Theme 8-Bit.wav"
+
+intromusic="8-Bit Mix- Music Box - Dark Cloud.wav"
+normaldaymusic="Dark Cloud Main Theme 8 Bit Remix (1).wav"
+beginningbattlemusic="Kingdom Hearts 2 -  The Encounter  8-bit.wav"
+wizardmusic="8 Bit Mix - One Winged Angel.wav"
+crashingdownmusic="Sonic Advance 2 Soundtrack- Final Ending.wav"
+endgamemusic="DuckTales Music (NES) - The Moon Theme.wav"
+gamestartmusic="Skyrim Theme 8-Bit.wav"

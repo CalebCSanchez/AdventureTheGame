@@ -265,6 +265,7 @@ def troll_encounter():
 
 #GAME
 counter=0
+os.chdir("./Music/")
 startmenu()
 while True:
     print("1.NEW GAME | 2.LOAD GAME | 3.CREDITS | 4.HOW TO PLAY | 5.EXIT")
